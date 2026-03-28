@@ -1,0 +1,62 @@
+.app-bg {
+  background: radial-gradient(
+    circle at top right,
+    #e8f2ff,
+    #f7f9fc 42%,
+    #ffffff 80%
+  );
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.78);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(10px);
+}
+
+.hero-wrap {
+  background: linear-gradient(
+    180deg,
+    rgba(13, 110, 253, 0.1),
+    rgba(13, 110, 253, 0.01)
+  );
+}
+
+.soft-card {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 10px 35px rgba(15, 33, 55, 0.09);
+}
+
+.post-card {
+  border: 0;
+  border-radius: 1rem;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  box-shadow: 0 8px 24px rgba(15, 33, 55, 0.08);
+}
+
+.post-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 28px rgba(15, 33, 55, 0.14);
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.metric-badge {
+  background-color: #eef4ff;
+  color: #2456b6;
+  border-radius: 999px;
+  padding: 0.35rem 0.8rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.body-preview {
+  min-height: 72px;
+}
