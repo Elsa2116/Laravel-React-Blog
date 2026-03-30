@@ -13,7 +13,7 @@ function App() {
         <nav className="navbar navbar-expand-lg glass-nav sticky-top">
           <div className="container py-2">
             <Link className="navbar-brand fw-bold fs-4 text-dark" to="/">
-              ✨ BlogSphere
+              BlogSphere
             </Link>
             <div className="d-flex gap-2 ms-auto">
               <Link
@@ -36,7 +36,7 @@ function App() {
           <div className="container text-center">
             <h1 className="display-5 fw-bold mb-2">Write. Share. Inspire.</h1>
             <p className="lead text-secondary mb-0">
-              A modern fullstack blog powered by React + Laravel.
+              A modern fullstack blog powered by React & Laravel.
             </p>
           </div>
         </header>
@@ -51,7 +51,7 @@ function App() {
         </main>
 
         <footer className="text-center py-3 text-muted small">
-          Built with React, Laravel, and your creativity.
+          Built with React, Laravel, and creativity.
         </footer>
       </div>
     </Router>
